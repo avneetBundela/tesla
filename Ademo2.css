@@ -1,0 +1,93 @@
+body
+{
+    background-color:black;
+    color:white;
+    font-family: sans-serif;
+}
+nav
+{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+#logo
+{
+    width: 130px;
+}
+nav ul
+{
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    
+    
+}
+
+nav ul li
+{
+    user-select: none;
+    cursor: pointer;
+    padding: 7px 13px;
+    border-radius: 12px;
+
+}
+
+nav ul li:hover
+{
+    background-color: white;
+    color: black;
+}
+main
+{
+    height: calc(100vh - 45px);
+    background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-X-Desktop-LHD");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+#content
+{
+    
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#buttons
+{
+    
+    margin-bottom: 80px;
+    display: flex;
+    column-gap: 30px;
+}
+
+#buttons button
+{
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#b1
+{
+    background-color: #dfe0e3;
+    color: black;
+}
+
+#b2
+{
+    background-color: #41434a;
+    color: white;
+}
